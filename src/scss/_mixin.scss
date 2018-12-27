@@ -1,0 +1,22 @@
+//
+// Mixin
+//
+
+@mixin clearfix {
+	&::after {
+    content:" ";
+    display:block;
+    clear:both;
+	}
+}
+
+// mediaQuery
+@mixin mq($breakpoint: md, $rule: "min") {
+	$bpVal: map-get($mq-breakpoints, $breakpoint);
+	@if ($rule == "max") {
+		$bpVal: $bpVal - 1;
+	}
+  @media screen and (#{$rule}-width: $bpVal) {
+    @content;
+  }
+}

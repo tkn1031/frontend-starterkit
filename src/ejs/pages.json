@@ -1,0 +1,7 @@
+[
+  {
+    "template": "./src/ejs/index.ejs",
+    "outputPath": "./index.html",
+    "pageTitle": "フロントエンド開発スターターキット"
+  }
+]

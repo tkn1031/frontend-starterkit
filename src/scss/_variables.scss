@@ -1,0 +1,32 @@
+//
+// Variables
+//
+
+// Color
+//
+$base-color: #333 !default;
+$link-color: #069 !default;
+
+// Typography
+//
+$font-family-sans-serif: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", "Meiryo", sans-serif !default;
+$font-family-serif: "游明朝", YuMincho, "ＭＳ Ｐ明朝", "MS PMincho", serif !default;
+$font-family-base: $font-family-sans-serif !default;
+
+$font-size-root: 62.5% !default; // 10px
+$font-size-base: 1.6rem !default; // 16px
+
+$line-height-base: 1.5 !default;
+
+// Breakpoints for mediaQuery mixin
+//
+$mq-breakpoints: (
+  'sm' : 576px,
+  'md' : 768px,
+  'lg' : 992px,
+  'xl' : 1200px
+);
+
+// Content max width
+//
+$content-width: 980px;

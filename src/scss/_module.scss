@@ -1,0 +1,18 @@
+//
+// Module
+//
+
+// 再利用可能な単位でパーツのスタイルを定義
+
+// 例
+
+// Heading
+//
+.title {
+  margin-bottom: 1em;
+  font-size: 2rem;
+  font-weight: bold;
+  @include mq(md) {
+    font-size: 3rem;
+  }
+}

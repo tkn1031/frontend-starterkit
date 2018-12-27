@@ -1,0 +1,29 @@
+//
+// Layout
+//
+
+// ページをエリアごとに分割するためのスタイルを定義
+
+// 例
+
+#l-wrapper {
+  overflow: hidden;
+}
+
+#l-header {
+}
+
+#l-main {
+}
+
+#l-footer {
+}
+
+.l-inner {
+  box-sizing: content-box;
+  max-width: $content-width;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}

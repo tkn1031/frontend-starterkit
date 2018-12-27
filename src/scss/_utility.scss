@@ -1,0 +1,17 @@
+//
+// Utility
+//
+
+// 汎用スタイルを定義
+
+.clearfix {
+  &::after {
+    content:" ";
+    display:block;
+    clear:both;
+	}
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
